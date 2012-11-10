@@ -1,0 +1,22 @@
+<p>
+  <b>Name:</b>
+  <%= @section.name %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @section.location %>
+</p>
+
+<p>
+  <b>Times:</b>
+  <%= @section.times %>
+</p>
+
+<p>
+  <b>Quarter:</b>
+  <%= @section.quarter %>
+</p>
+
+<%= link_to 'Edit', edit_section_path(@section) %> |
+<%= link_to 'Back', sections_path %>

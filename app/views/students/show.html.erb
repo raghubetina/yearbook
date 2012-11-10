@@ -1,0 +1,27 @@
+<p>
+  <b>Name:</b>
+  <%= @student.name %>
+</p>
+
+<p>
+  <b>Avatar url:</b>
+  <%= @student.avatar_url %>
+</p>
+
+<p>
+  <b>Section:</b>
+  <%= @student.section.name %>
+</p>
+
+<p>
+  <b>Github username:</b>
+  <%= @student.github %>
+</p>
+
+<p>
+  <b>Twitter username:</b>
+  <%= @student.twitter %>
+</p>
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>
